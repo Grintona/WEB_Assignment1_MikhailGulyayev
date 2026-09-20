@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: hsl(0, 0%, 0%);
+    margin: 20px;
+}
+
+header {
+    background-color: rgb(2, 2, 48);
+    color: white;;
+    color: white;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    background-color: blue;
+    padding: 1px;
+}
+
+.active {
+    background-color: blue;
+}
+
+main {
+    background-color:white;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid gray;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+img {
+    border: 2px solid black;
+    margin: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: navy;
+    color: white;
+}
+
+form {
+    margin: 20px;
+}
+
+fieldset {
+    padding: 15px;
+}
+
+input, textarea {
+    padding: 5px;
+    margin: 5px;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid blue;
+}
+
+#message {
+    height: 20px;
+    width: 300px;
+}
+
+footer {
+    background-color: rgb(2, 2, 48);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
